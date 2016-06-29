@@ -8,9 +8,9 @@ class VideoPlayerTests < AppiumTest
   def before_all
     capabilities = {
       caps:       {
-        platformName:          'YouiEngine',
+        automationName:          'YouiEngine',
         youiEngineAppAddress:  'localhost',
-        youiEngineAppPlatform: 'iOS',
+        platformName:           'iOS',
         deviceName:            'iPhone 6 Plus',
         # TODO - the app path needs to be configurable since this is hardcoded to my setup - Dave R.
         app:                   "../../uswish/samples/VideoPlayer/build/ios/Debug-iphonesimulator/VideoPlayer.app",
